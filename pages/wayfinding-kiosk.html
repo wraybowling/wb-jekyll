@@ -1,0 +1,47 @@
+<img src="/img/wayfinding-final.jpg">
+
+<p class="intro">When Richland Library renovated their main building, customers trying to self-navigate were getting lost. The Wayfinding app nailed down both where one could go, and where things were happening.</p>
+
+<a href="https://github.com/rcpl/wayfinding">Wayfinding on Github</a>
+
+<h2>Mockup</h2>
+<img src="/img/wayfinding-mockup-1.jpg">
+<p>I saw the least friction in using screens that were already available in the building. The directory, however, would be printed out below the screen. Separation allowed the upper portion to be dynamic and the lower portion to have crisp, legible, unmoving type. This proposal was not flexible enough for two reasons: Firstly, a room's purpose could still change over time which would require reprinting the directory. Second, my colleagues noted that our walls had already become visually cluttered with objects.</p>
+
+<h2>Room Interiors &amp; Specs</h2>
+<p>An API-first approach has to start with collecting data. We were planning on revamping Richland Library's website and room reservation system anyway, so I leveraged Airtable to catalog photographs of room interiors. Plenty of other data points could be stored such as maximum capacity, if it could be reserved or not, what floor it was on, and which building it was in. Including rooms beyond Main's walls was admittedly out of the scope for the <em>Wayfinding Kiosk</em>, but I wagered that having rich data ready to go would prepare the platform for widespread use. The interface could have potentionally been piloted in a kiosk at any location or on the web site. A 360 view of each room interior was not part of the final release, but it would have been a neat feature.</p>
+<img src="/img/wayfinding-interiors-1.jpg">
+<img src="/img/wayfinding-interiors-2.jpg">
+
+<h2>Iterative Design Process</h2>
+<img src="/img/wayfinding-prototype-1.jpg" style="float:left; margin-right:0.5em; width:50%;">
+<p>The first working prototype was built with <a href="https://www.getnoodl.com/">Noodl</a>, a tool that allowed me to have something interactive on the kiosk within just a couple of days. Before making too many more assumptions about what information would help customers find their way, I decided to put the earliest versions out on the floor to test it directly. Despite changing to a vertical orientation and dropping the printed directory, user testing proved the list of events, and the current date to be desirable elements. The map, interestingly did not feel useful to users, but we pressed on just in case it was just not of a high enough quality yet.</p>
+<p>Later iterations were built with <a href="https://vuejs.org">Vue.js</a>. The component-based structure was just as flexible as Noodl, but with the added benefit that the application would be production-ready. Development-mode's hot reloads allowed me to untether my laptop from the screen, view customers from afar, and remotely interfere through interface improvements alone. Sometimes multiple revisions could be made in a single day.</p>
+
+<h2>10-Foot Type</h2>
+<p>Despite being interactive, many users did not touch the screen, so I needed to treat the display as a static poster. One extremely important consideration to a <a href="https://en.wikipedia.org/wiki/10-foot_user_interface">10-Foot User Interface</a> is legible typography. <a href="https://github.com/Monotype/Monotype_prototype_variable_fonts/tree/master/AvenirNext">A variable font of Avenir Next</a> allowed me to make very small changes to text size, width, and weight. The idea was to just keep nudging values until the interface consistently felt right to passing customers. Any extra flexibility I could get to pinpoint exactly the right feel was welcomed. <a href="https://axis-praxis.org">Axis-Praxis</a> was a great resource in showing me that variable fonts were ready for browsers. It felt strange but wonderful to load just one font!</p>
+<div class="clear"></div>
+<img src="/img/axis-praxis.gif">
+
+<h2>Hardware Headaches</h2>
+<iframe src="http://player.vimeo.com/video/322059160" class="fixed-aspect-ratio" data-width="9" data-height="16" style="max-height:66vh"></iframe>
+<p>I added metadata and an app icon to allow the web page to rest on the device's desktop as an app. Treating a normal web page as an app is mostly safe but problems arose quickly given the nature of public-facing kiosks: people will find a way to surf YouTube. I attempted to use <a href="https://www.android-kiosk.com/">a dedicated Kiosk Browser</a>, but the <a href="https://www.viewsonic.com/us/digital-displays/shop/kiosk-digital-displays/ep5520.html">Viewsonic EP5520 ePoster</a> ran a build of Android older than 4.4 (2013). While the app would run, 4.1 and below use the Android browser, my sworn enemy for life; it doesn't support SVG, WebGL, CSS Grid, Flexbox, and definitely not variable fonts. That option was out. Later, we rerouted the touchscreen to a small Windows machine.</p>
+<div class="clear"></div>
+
+<h2>You Are Here</h2>
+<p>A problem unique to a map viewable to foot traffic is its orientation. One expects the map to match the direction they are facing. Furthermore, a top-down view is more challenging to grasp. I chose to tilt the camera down so that walls would protrute from the floor in 3D. The early Noodl prototype used pre-rendered images made in Blender, but the location of the kiosk kept changing throughout prototyping phases. Mapbox allowed me to make realtime 3D floor plans that could not just pan and zoom, but tilt and twirl.</p>
+<img src="/img/wayfinding-map-1.png">
+
+<h2>Mapbox &amp; Version Control</h2>
+<p>Mapbox offers data hosting as a service, but I found pre-composed tiles to be limiting. I needed to be able to re-paint elements of the map reactively when users touched an event or changed floors. Loading GeoJSON directly onto a standard map allowed maximum flexibility and meant we could skip paying for Mapbox's data storage.</p>
+<p>One of the great benefits of using GeoJSON is that it is version-control-friendly. Map data could transport and be edited in QGIS, the gold standard GIS tool. The application is hosted on Firebase because I anticipated a need for fast updates, but that became unnecessary. It could have been hosted on any static service, including Github Pages. As a bonus, Github can visualize rich diffs of GeoJSON with highlighting and split views.</p>
+<p>Coloring, transparency, camera angles, and wall heights were stored in the application and thus tracked in git as well.</p>
+<img src="/img/wayfinding-git-2.png">
+<img src="/img/wayfinding-git-1.gif">
+
+<h2>Offline Memory, State Management, &amp; Syncing</h2>
+<p>The kiosk stood in a place that had particularly poor wifi reception, especially during the afternoon. For that reason I needed to collect as much data as I could when the connection was strong, and rely on a cache when the connection was unavailable. I implemented Vuex to deliver data to the rest of the application. A cron would collect data from local storage and the events API, save updates back to local storage in case of a reboot during times with zero connectivity.</p>
+
+<h2>Final Thoughts</h2>
+<p>Richland Library's customers have now well adjusted to the renovations. While a detailed interactive map was a cool idea for that transitional period, it perhaps was not needed long term. Better solutions like Google's <a href="https://www.google.com/maps/about/partners/indoormaps/">Indoor Maps</a> are great. Mobile device GPSs are on their way to 1-meter precision, and along with that advancement, indoor directions that can be in every customer's hand. Richland Library has an outdated floor plan already on Google Maps, and it's only a matter of time before the data is updated.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d826.8866757162709!2d-81.0374261117043!3d34.004175269929185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a4d350c8150f%3A0x5984db0f9984221a!2sRichland+Library+Main!5e0!3m2!1sen!2sus!4v1552075569480" data-width="1" data-height="1" style="max-height:66vh" frameborder="0" style="border:0" allowfullscreen></iframe>
