@@ -1,5 +1,6 @@
 ---
-{ "title": "A 3-Way Range Input", "date": "2018-01-18" }
+title: "A 3-Way Range Input"
+date: "2018-01-18"
 ---
 
 # {{ $page.title }}
