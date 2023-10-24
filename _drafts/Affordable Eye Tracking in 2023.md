@@ -1,6 +1,14 @@
+---
+collections:
+  - ux
+---
+
 # Affordable Eye Tracking in 2023
+
 There’s just one company that seems to have all the patents on decent eye tracking hardware: Tobii. (With two “eyes,” amirite?) I believe I found out about Tobii around 2010 and at the time they only offered equipment suitable to laboratories with military or sports team funding. Or to put it another way, they made expensive rigs and glasses that would tell a computer (and in turn you) where someone else was looking. The affordability of this technology has always been closely tied to just how many people needed such a thing. When it was a task largely relegated to university research projects, a million dollar price tag made sense. But then something happened. I want to know what the catalyst was, but I speculate it had something to do with eSports, and perhaps more specifically, the Starcraft craze that swept South Korea, Taiwan, Japan, and diehard fans still living elsewhere. The 4C, Tobii’s answer to gamer fatigue, seemed to drop at a time when they thought it would make them a lot of money on just gamers. It was the second or third iteration of a device that was targeted at gamers actually, the first of which seemed targeted more at flight simulation (again, military focused). But the 4C did something groundbreaking rhat is still relevant today: it has an eye tracking chip inside. Granted, it’s probably just an ARM chip running a very lightweight Linux kernel, but nevertheless Tobii proudly boasts the fact that rhe 4C has a dedicated silicon chip that handles all aspects of head tracking and eye tracking and converts those complex things into coordinates on the screen it is attached to. And they successfully sold quite a lot of them over the past decade. It seems now Tobii is focused much more on getting their hardware into all the new VR headsets, Apple, Sony, and Meta alike. But the 4C is still out there. Let’s have a look at eBay:
 ![](Affordable%20Eye%20Tracking%20in%202023/f56b99ce1aed3da3e15b86fc560cdbf5d0755fea.png)
 The used market of 4C hardware varies wildly, but there is often one available for less than $200.
+
 ## What you need to use one
+
 The 4C provides to the computer not images, but coordinates. Think of it like a glorified version of Wong’s Wii Remote Headtracker. The computer you may think doesn’t need much computing power then, right? Sort of, but unfortunately not so. The Tobii software Ghost https://gaming.tobii.com/getstarted/?bundle=ghost&autodownload=false is the application that turns those coordinates into an overlay. That overlay requires some GPU power. And then, when you in turn use OBS to capture the screen and combine the overlay on top, you’ll need GPU again, and finally a decent amount of CPU to encode the final result into a video file you can review later, or live stream the results to a private YouTube link that your colleagues can see in another room.

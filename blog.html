@@ -3,13 +3,28 @@ layout: default
 title: Blog
 ---
 
-<h1>Latest Posts</h1>
-
+<h1>Finished Posts</h1>
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts %} {% if post.categories contains "visible" %}
   <li>
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </li>
+  {% endif %} {% endfor %}
+</ul>
+
+<h2>Works in Progress</h2>
+<ul>
+  {% for post in site.posts %} {% unless post.categories contains "visible" %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endunless %} {% endfor %}
+</ul>
+
+<h2>Archives</h2>
+<ul>
+  {% for project in site.rgbk.posts %}
+  <li>{{project.url}}</li>
   {% endfor %}
 </ul>
