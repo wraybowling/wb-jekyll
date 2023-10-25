@@ -1,0 +1,11 @@
+@import url(./colors-light.css) only screen and (prefers-color-scheme: light);
+@import url(./colors-dark.css) only screen and (prefers-color-scheme: dark);
+
+html {
+  background-color: var(--body-background);
+  overflow-y: scroll;
+}
+
+body {
+  color: var(--text-color);
+}
