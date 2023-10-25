@@ -52,8 +52,15 @@ github_username: jekyll
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  - rgbk
+
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"

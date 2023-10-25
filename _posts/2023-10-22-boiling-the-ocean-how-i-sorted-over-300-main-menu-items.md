@@ -5,9 +5,7 @@ categories:
 tools:
   - card sort
   - graph database
-
-layout: hidden
-sitemap: false
+layout: post
 ---
 
 # Boiling The Ocean: How I Sorted Over 300 Main Menu Items
@@ -101,6 +99,6 @@ With the only reasonable explanation about where categories and sorting methods 
 
 In the final card, sort resultoptimalworkshop.com had been long, abandoned due to its 30 card limitations even if we had paid for a more premium tier the number of items that we had to go through was just too large for the platform I had started searching around For alternative tools. I believe that I used Airtable to capture results which were subsets of about 100 cards at a time I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do category the work that the optimal workshop card sorting tool does of coating and combining categories that people write down a process much better done by hand anyway, so the usefulness of the tool, but spoke to that particular task, began to erode, and I found myself using spreadsheets more and more often anyway after reading yet another interestingpaper byexample.com hi that touched on treating card sorts more as Craft and implementing graph theory I started looking for tools that could more easily manipulate graph relationships. I was particularly fond of the Facebook graph and when I started diving into graph theory around that time maybe 2012 or so I found the subject really interesting and probably the right solution for the problem, there were already existing graph databases, and I even took a neo for Jay for a spin on the set that is that I completed the research with would like to revisit it at some point the tool that ended up being the most useful and is still my preferred method is a combination of Google spreadsheets and a graph manipulation tool called Gaffy. With limited sample sizes with a substantial amount of overlap with a little bit of iteration combined with deception, and with mini months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories
 
-## Final results￼
+## Final results
 
 Go find the results and put them here

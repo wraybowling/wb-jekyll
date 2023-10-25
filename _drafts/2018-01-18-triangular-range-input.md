@@ -3,7 +3,7 @@ title: "A 3-Way Range Input"
 date: "2018-01-18"
 ---
 
-# {{ $page.title }}
+# {{ page.title }}
 
 A range slider is a commonplace user interface element that has only recently made its way into HTML forms. In an effort to capture richer data from end users, I set out to create a range slider that offers a third option. The result is below.
 
