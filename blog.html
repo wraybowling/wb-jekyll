@@ -7,7 +7,7 @@ title: Blog
 <ul>
   {% for post in site.posts %} {% if post.categories contains "visible" %}
   <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
   </li>
   {% endif %} {% endfor %}
@@ -17,7 +17,7 @@ title: Blog
 <ul>
   {% for post in site.posts %} {% unless post.categories contains "visible" %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endunless %} {% endfor %}
 </ul>
