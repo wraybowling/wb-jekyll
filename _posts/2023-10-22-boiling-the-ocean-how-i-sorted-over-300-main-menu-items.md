@@ -10,7 +10,9 @@ layout: post
 
 # Boiling The Ocean: How I Sorted Over 300 Main Menu Items
 
-Hands-down the biggest project I ever took on at Richland Library was the task of resorting the main navigation menu. richlandlibrary.com to the completed redesign in 2018 featured a main navigation that had over 300 items, the marketing department and librarians from the 12 different locations, all had vested interest in having their own sections featured in the main menu And to not have their section featured in the main menu was considered perhaps an insult to them. So this was a very touchy subject and had to involve a lot of people the user base of richlandlibrary.com was at the time in the tens of thousands a day and, we figured out that the best course of action was to do a traditional card sort.
+![richlandlibrary.com circa 2017](/assets/img/boiling-the-ocean/Screenshot 2023-10-24 at 9.13.55 PM.png)
+
+Hands-down the biggest card sort I have ever conducted was for the richlandlibrary.com main navigation menu. I conducted countless usability tests between 2015-2018 which ultimately led to a website redesign. The marketing department and librarians from the 12 (at the time) locations, all had vested interest in having their own sections featured either in the main menu or on the front page. To not have their section featured in the main menu was considered an insult. So this was a very touchy subject internally and had to involve a lot of people. Since the user base of richlandlibrary.com was at the time was also in the tens of thousands a day and in the top 1 million most viewed websites on the web, we figured that a non-zero amount of usability research was necessary.
 
 ## The 30 card sort
 
@@ -20,53 +22,70 @@ The 30 cards in the sort were pulled mainly from the existing top level menu ite
 
 ## Selecting The Cards
 
-I collected the most trafficed sections of the site as well as the biggest sign posts from the existing main menus to come up with a short list of 30 items. That number, 30, happens to be the limit on how many cards can be put into a card sort when using [Optimal Workshop](http://optimalworkshop.com) on a free account, but it also happens to be the right number for a session that most people feel comfortable with (somewhere between 20 and 40 and no more than 120).
+I collected the most trafficed sections of the site as well as the biggest sign posts from the existing main menus to come up with a short list of 30 items. That number, 30, happens to be the limit on how many cards can be put into a card sort when using [Optimal Workshop](http://optimalworkshop.com) on a free account, but it also happens to be the right number for a session that most people feel comfortable with, somewhere between 20 and 40 and no more than 120.
 
-1. [A link to browse through eBooks](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it/ebooks)
-2. [Business Careers and Research Center](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/jobs)
-3. [Career & Job Resources](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/research-it/career-job-resources)
-4. [Fill out a form to request an obituary](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us/answer/462867)
-5. [Find books to check out](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/books)
-6. [Upcoming events](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/events)
-7. [Sign up for classes](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/events)
-8. [Movies that can be picked up from the library](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/movies)
-9. [Work at Richland Library](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/careers)
-10. [The department of Local History at Main](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/research-it/genealogy)
-11. [Music downloads](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it/music)
-12. [Request a purchase](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/request-purchase)
-13. [Audiobooks you can check-out online](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/audiobooks?menu=download-it)
-14. [Send a question to a librarian](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us)
-15. [Compare information between services that offer e-magazines](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it)
-16. [Addresses for our library locations](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations)
-17. [The typical posted hours of operation](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations)
-18. [Sign up for a library card](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us/answer/489830)
-19. [Reserve a meeting room](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/services/reserve-room)
-20. [Summer Learning Challenge](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/summer)
-21. [Meet the Media Box, a self-service machine for new release movies and games](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/sites/default/files/media-room/meet_the_media_box_faqs_april_2015_0.pdf)
-22. [Volunteering at the library](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/donate-or-volunteer)
-23. [Donate books to the catalog or items of historical significance for archiving](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/donate-or-volunteer)
-24. [Sign up to use a desk in the co-working space](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/services/reserve-room)
-25. [Things you can use our teen centers for](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/teens)
-26. [How to connect your e-reader to services like Amazon, Hoopla, or Zinio](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it)
-27. [Ways that you can pay your fines](https://web.archive.org/web/20180428192407/https://www.richlandlibrary.com/ask-us/answer/638981)
-28. [Construction progress](https://web.archive.org/web/20180428192407/http://www.buildingyourlibrary.com)
-29. [Get assistance from certified social workers with health insurance, housing, etc.](https://web.archive.org/web/20180428192407/http://richlandlibrary.com/services/social-work)
-30. [School summer reading list](https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/inform/school-summer-reading-lists-2016)
+_The links below point to archive.org snapshots._
+
+<style>
+  .grid-of-cards {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    li {
+      border-radius: 4px;
+      border: solid 1px var(--text-color);
+      padding: 0.5em;
+    }
+  }
+</style>
+<ol class="grid-of-cards">
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it/ebooks">A link to browse through eBooks</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/jobs">Business Careers and Research Center</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/research-it/career-job-resources">Career &amp; Job Resources</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us/answer/462867">Fill out a form to request an obituary</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/books">Find books to check out</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/events">Upcoming events</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/events">Sign up for classes</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/movies">Movies that can be picked up from the library</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/careers">Work at Richland Library</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/research-it/genealogy">The department of Local History at Main</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it/music">Music downloads</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/request-purchase">Request a purchase</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/audiobooks?menu=download-it">Audiobooks you can check-out online</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us">Send a question to a librarian</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it">Compare information between services that offer e-magazines</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations">Addresses for our library locations</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/locations">The typical posted hours of operation</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/ask-us/answer/489830">Sign up for a library card</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/services/reserve-room">Reserve a meeting room</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/summer">Summer Learning Challenge</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/sites/default/files/media-room/meet_the_media_box_faqs_april_2015_0.pdf">Meet the Media Box, a self-service machine for new release movies and games</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/donate-or-volunteer">Volunteering at the library</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/donate-or-volunteer">Donate books to the catalog or items of historical significance for archiving</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/services/reserve-room">Sign up to use a desk in the co-working space</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/check-it-out/teens">Things you can use our teen centers for</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/download-it">How to connect your e-reader to services like Amazon, Hoopla, or Zinio</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/https://www.richlandlibrary.com/ask-us/answer/638981">Ways that you can pay your fines</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.buildingyourlibrary.com">Construction progress</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://richlandlibrary.com/services/social-work">Get assistance from certified social workers with health insurance, housing, etc.</a></li>
+  <li><a href="https://web.archive.org/web/20180428192407/http://www.richlandlibrary.com/inform/school-summer-reading-lists-2016">School summer reading list</a></li>
+</ol>
 
 ## Responses
 
 The responses converged on 2 major categories and a few minor categories:
 
 GENERAL RESOURCES (i.e. The Catalog)
-![general resources](./general-resources.png)
+![general resources](/assets/img/boiling-the-ocean/general-resources.png)
 
 LIBRARY INFORMATION (i.e. Everything Else)
-![library information](./library-information.png)
+![library information](/assets/img/boiling-the-ocean/library-information.png)
 
 get involved (i.e. volunteering/working at the library)
-![get involved](./get-involved.png)
-![business and careers](./business-and-careers.png)
-![events](./events.png)
+![get involved](/assets/img/boiling-the-ocean/get-involved.png)
+![business and careers](/assets/img/boiling-the-ocean/business-and-careers.png)
+![events](/assets/img/boiling-the-ocean/events.png)
 
 There were common associations that disagree with the above categories:
 
@@ -77,7 +96,7 @@ There were common associations that disagree with the above categories:
 - 40% Hours of Operation & Construction updates
 - 38% Request a Purchase & Finding Books
 
-![similarity disagreements](./similarity-disagreements.png)
+![similarity disagreements](/assets/img/boiling-the-ocean/similarity-disagreements.png)
 
 ## Impact
 
