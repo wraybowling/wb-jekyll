@@ -12,13 +12,11 @@ layout: post
 
 ![richlandlibrary.com circa 2017](/assets/img/boiling-the-ocean/Screenshot 2023-10-24 at 9.13.55 PM.png)
 
-Hands-down the biggest card sort I have ever conducted was for the richlandlibrary.com main navigation menu. I conducted countless usability tests between 2015-2018 which ultimately led to a website redesign. The marketing department and librarians from the 12 (at the time) locations, all had vested interest in having their own sections featured either in the main menu or on the front page. To not have their section featured in the main menu was considered an insult. So this was a very touchy subject internally and had to involve a lot of people. Since the user base of richlandlibrary.com was at the time was also in the tens of thousands a day and in the top 1 million most viewed websites on the web, we figured that a non-zero amount of usability research was necessary.
+Hands-down the biggest card sort I have ever conducted was for the richlandlibrary.com main navigation menu. I conducted countless usability tests between 2015-2018 which ultimately led to a website redesign. The marketing department and librarians from the 12 (at the time) locations, all had vested interests in their own sections featured either in the main menu or on the front page. As such this was a very touchy subject internally, requiring feedback and involvement from a lot of people. Since the user base of richlandlibrary.com was at the time in the tens of thousands a day and in the top 1 million most viewed websites on the web, we figured that a non-zero amount of usability research with customers was necessary.
 
 ## The 30 card sort
 
-I started out with a 30 card sort using optimal workshop.com because it was the easiest tool to reach for that was free. We ran the test on. I think 10 users mixed between staff and random customers I would pull off to the side for 15 minutes or so. This is not an extremely high sample which – foreshadowing – didn’t seem like that much of a problem for an early test.
-Photograph.
-The 30 cards in the sort were pulled mainly from the existing top level menu items they were named identically to the original titles and of course, when you do this, it introduces a lot of bias.
+I started out with a 30 card sort using optimalworkshop.com because it was free, feature rich, and I tested as the easiest tool to use for staff after a few tries. The sample size was small, mixed between staff and random customers I would pull off to the side for 15 minutes or so. I recommend small mixed samples to anyone starting from zero usability testing data as it's a good way to show colleagues and stakeholders how their ideal solutions match up with their end users mental models.
 
 ## Selecting The Cards
 
@@ -74,20 +72,23 @@ _The links below point to archive.org snapshots._
 
 ## Responses
 
-The responses converged on 2 major categories and a few minor categories:
+The responses converged on 2 major categories:
 
-GENERAL RESOURCES (i.e. The Catalog)
+1. GENERAL RESOURCES (i.e. The Catalog)
 ![general resources](/assets/img/boiling-the-ocean/general-resources.png)
 
-LIBRARY INFORMATION (i.e. Everything Else)
+2. LIBRARY INFORMATION (i.e. Everything Else)
 ![library information](/assets/img/boiling-the-ocean/library-information.png)
 
-get involved (i.e. volunteering/working at the library)
+There were also various minor categories, most of which fell under:
+1. Get Involved (i.e. volunteering/working at the library)
 ![get involved](/assets/img/boiling-the-ocean/get-involved.png)
-![business and careers](/assets/img/boiling-the-ocean/business-and-careers.png)
-![events](/assets/img/boiling-the-ocean/events.png)
+2. Business and Careers (i.e. volunteering/working elsewhere) ![business and careers](/assets/img/boiling-the-ocean/business-and-careers.png)
+3. Events ![events](/assets/img/boiling-the-ocean/events.png)
 
-There were common associations that disagree with the above categories:
+Last, here are the disagreements rhat fell outside of the above categories, and by how much:
+
+![similarity disagreements](/assets/img/boiling-the-ocean/similarity-disagreements.png)
 
 - 50% Library Locations & construction updates
 - 50% Sign up for a library card & Request an obituary
@@ -96,15 +97,13 @@ There were common associations that disagree with the above categories:
 - 40% Hours of Operation & Construction updates
 - 38% Request a Purchase & Finding Books
 
-![similarity disagreements](/assets/img/boiling-the-ocean/similarity-disagreements.png)
+# Going Big
 
-## Impact
-
-This card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary.
+The 30 card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary. Another limitation I had to work with was that, outside of my hours, there was zero budget.
 
 ## Random selection
 
-One theory I tried to entertain was that, since the card swords, on optimalworkshop.com were limited to 30 cards, I could conceivably run 10 cards short, each with 30 cards randomly selected. The categories resulting from those 10 sorts could then be put into another card, sort to reduce the count further a study by example.com showed that 30 was the optimal number for a sort otherwise participants get overwhelmed. This method didn’t work particularly well probably because people are not computers and the sample sets didn’t have enough overlap. I’m speculating that each of the sorts should’ve had at least a third overlap, with another sort in terms of card selection, which would’ve meant we needed, less than 13 sorts. That’s not a huge number but still the final sort of the categories wasn’t going to be in context with the rest of the exercises to write another way, hiding the entire rest of the process from participants that they didn’t understand why the categories actually came from.
+One theory I tried to entertain was that, since the cards on optimalworkshop.com were limited in size, I could conceivably run 10 cards sorts, each with 30 cards randomly selected. The categories resulting from those 10 sorts could then be put into another card sort to reduce the count further. The iterative reduction method didn’t work particularly well probably because people are not computers and the sample sets didn’t have enough overlap. I’m speculating that each of the sorts should’ve had at least a third overlapping with another sort in terms of card selection, which would’ve meant we needed no less than 13 sorts. That’s not a huge number but still the final sort of the categories wasn’t going to be in context with the rest of the exercises to write another way, hiding the entire rest of the process from participants that they didn’t understand why the categories actually came from.
 
 ## Counting
 
