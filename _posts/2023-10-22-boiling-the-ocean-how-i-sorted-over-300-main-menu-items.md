@@ -75,16 +75,21 @@ _The links below point to archive.org snapshots._
 The responses converged on 2 major categories:
 
 1. GENERAL RESOURCES (i.e. The Catalog)
-![general resources](/assets/img/boiling-the-ocean/general-resources.png)
+   ![general resources](/assets/img/boiling-the-ocean/general-resources.png)
 
 2. LIBRARY INFORMATION (i.e. Everything Else)
-![library information](/assets/img/boiling-the-ocean/library-information.png)
+   ![library information](/assets/img/boiling-the-ocean/library-information.png)
 
 There were also various minor categories, most of which fell under:
+
 1. Get Involved (i.e. volunteering/working at the library)
-![get involved](/assets/img/boiling-the-ocean/get-involved.png)
-2. Business and Careers (i.e. volunteering/working elsewhere) ![business and careers](/assets/img/boiling-the-ocean/business-and-careers.png)
-3. Events ![events](/assets/img/boiling-the-ocean/events.png)
+   ![get involved](/assets/img/boiling-the-ocean/get-involved.png)
+
+2. Business and Careers (i.e. volunteering/working elsewhere)
+   ![business and careers](/assets/img/boiling-the-ocean/business-and-careers.png)
+
+3. Events
+   ![events](/assets/img/boiling-the-ocean/events.png)
 
 Last, here are the disagreements rhat fell outside of the above categories, and by how much:
 
@@ -99,24 +104,32 @@ Last, here are the disagreements rhat fell outside of the above categories, and 
 
 # Going Big
 
-The 30 card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary. Another limitation I had to work with was that, outside of my hours, there was zero budget.
+The 30 card sort would pave the way for a much larger one, but since card sorts start to break down past 30 cards, some creative solutions were necessary. Another limitation I had to work with was that there was zero budget. So we went back to paper and spreadsheets.
+
+## Capturing The Cards
+
+![Giant poster-sized printout](/assets/img/boiling-the-ocean/giant-printout.jpg)
+
+To really capture the scale of the problem, I went about writing a script to capture absolutely every single significant section of the website. I then wrote abstracted descriptions of what the link navigated to into a large database, and then wrote a customized tool to render the main menu, as if all of the items were visible at once. The result was printed out on a large format printer which we happened to have access to. We had it hanging up on the wall for the duration of the redesign project and it often shocked people to see just how many items were on it. I thought this was a good motivational tour to get people on board with redesign, or rather with re-architecting the information and was really looking forward to doing a second printout. Once the reorganization had been completed and being able to visually compare the two.
 
 ## Random selection
 
+![Card split](/assets/img/boiling-the-ocean/card-split.jpg)
+
 One theory I tried to entertain was that, since the cards on optimalworkshop.com were limited in size, I could conceivably run 10 cards sorts, each with 30 cards randomly selected. The categories resulting from those 10 sorts could then be put into another card sort to reduce the count further. The iterative reduction method didn’t work particularly well probably because people are not computers and the sample sets didn’t have enough overlap. I’m speculating that each of the sorts should’ve had at least a third overlapping with another sort in terms of card selection, which would’ve meant we needed no less than 13 sorts. That’s not a huge number but still the final sort of the categories wasn’t going to be in context with the rest of the exercises to write another way, hiding the entire rest of the process from participants that they didn’t understand why the categories actually came from.
 
-## Counting
-
-To really capture the scale of the problem, I went about writing down, absolutely every single menu item, and an abstracted description of what the link navigated to into a large database, and then wrote a customized tool to render the main menu, as if all of the items were visible at once. The result was printed out on a large format printer which we happened to have access to and even at that scale. The text was very small. We had it hanging up on the wall for the duration of the redesign project and it often shocked people to see just how many items were in the menu, I thought this was a good motivational tour to get people on board with redesign, or rather with re-architecting the information and was really looking forward to doing a second printout. Once the reorganization had been completed and being able to visually compare the two. ￼
-
-## A Method of Deception
+## Iterations & Deception
 
 With the only reasonable explanation about where categories and sorting methods came from to be pointed at me, both my colleagues and participants had a hard time, excepting the cards that they were given were the correct cards, and the categories had, in fact, been chosen by me not random paper published in example.com proposed an iterative card sort method which I found rather compelling the paper does not explicitly say to be deceptive only that iteratively passing assort from one participant into the next yields better results I took the reasoning to this, which is somewhat covered in the conclusion of the paper to be that the reason this works is because participants have someone else to blame whether that person actually exist or not doesn’t matter, so yes, I lied I lied to people that there was someone who would just come before them who had chosen the cards and categories, and then 10% of the samples that had been randomized by computer, and their job was simply to put things back in place The truth was that while cards had been somewhat previously sorted or not sorted at all, the cards were never randomly buried from the previous iteration, and in fact, participants were just being given a few cards here, and there to add to the existing set
 
-## Nodes snd Edges
+## Nodes & Edges
 
-In the final card, sort resultoptimalworkshop.com had been long, abandoned due to its 30 card limitations even if we had paid for a more premium tier the number of items that we had to go through was just too large for the platform I had started searching around For alternative tools. I believe that I used Airtable to capture results which were subsets of about 100 cards at a time I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do category the work that the optimal workshop card sorting tool does of coating and combining categories that people write down a process much better done by hand anyway, so the usefulness of the tool, but spoke to that particular task, began to erode, and I found myself using spreadsheets more and more often anyway after reading yet another interestingpaper byexample.com hi that touched on treating card sorts more as Craft and implementing graph theory I started looking for tools that could more easily manipulate graph relationships. I was particularly fond of the Facebook graph and when I started diving into graph theory around that time maybe 2012 or so I found the subject really interesting and probably the right solution for the problem, there were already existing graph databases, and I even took a neo for Jay for a spin on the set that is that I completed the research with would like to revisit it at some point the tool that ended up being the most useful and is still my preferred method is a combination of Google spreadsheets and a graph manipulation tool called Gaffy. With limited sample sizes with a substantial amount of overlap with a little bit of iteration combined with deception, and with mini months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories
+![Gephi displaying a force directed graph](/assets/img/tools/gephi.png)
 
-## Final results
+By the end, the card sort result from optimalworkshop.com had been long abandoned due to its 30 card limitations. even if we had paid for a more premium tier, our card set was just too large for the platform, so I had started searching around For alternative tools. I believe that I used Airtable to capture results which were subsets of about 100 cards at a time I could’ve easily used Google Docs or some other spreadsheet tool. The reason for choosing Airtable was that it made calculations rather easy to do category the work that the optimal workshop card sorting tool does of coating and combining categories that people write down a process much better done by hand anyway, so the usefulness of the tool, but spoke to that particular task, began to erode, and I found myself using spreadsheets more and more often anyway after reading yet another interestingpaper byexample.com hi that touched on treating card sorts more as Craft and implementing graph theory I started looking for tools that could more easily manipulate graph relationships. I was particularly fond of the Facebook graph and when I started diving into graph theory around that time maybe 2012 or so I found the subject really interesting and probably the right solution for the problem, there were already existing graph databases, and I even took a neo for Jay for a spin on the set that is that I completed the research with would like to revisit it at some point the tool that ended up being the most useful and is still my preferred method is a combination of Google spreadsheets and a graph manipulation tool called Gephi.
 
-Go find the results and put them here
+## Final Result
+
+![Current Richland Library Menu](/assets/img/boiling-the-ocean/current-menu.png)
+
+With limited sample sizes with a substantial amount of overlap with a little bit of iteration combined with deception, and with mini months of repeated card sorting with immeasurable number of participants I was able to reduce the richlandlibrary.com main navigation down to approximately 12 categories. Further research with the assistance of a major design firm Aten expanded the main menu a bit more into its final form.
